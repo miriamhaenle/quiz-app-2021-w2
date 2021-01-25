@@ -1,0 +1,19 @@
+{
+  "name": "quiz-app",
+  "version": "0.0.1",
+  "description": "Quiz app for web 2021-21, neuefische bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miriamhaenle/2021-w1-quiz-app.git"
+  },
+  "author": "Miriam Haenle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miriamhaenle/2021-w1-quiz-app/issues"
+  },
+  "homepage": "https://github.com/miriamhaenle/2021-w1-quiz-app#readme"
+}
