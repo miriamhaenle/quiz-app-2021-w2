@@ -1,0 +1,44 @@
+.card {
+  align-items: center;
+  background: var(--primary);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+}
+
+.card__title {
+  font-family: var(--ff-sans);
+}
+
+.card__question {
+  font-size: 1.4rem;
+}
+
+.card__answer {
+  display: none;
+}
+
+.card__button {
+  padding: 0.3rem 0.8rem;
+  border: none;
+}
+
+.card__button:focus {
+  border: 2px solid var(--black);
+}
+
+.card__tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card__tags li {
+  background: var(--secondary-light);
+  padding: 0.2rem;
+}
+
+.card__tags li:not(:last-child) {
+  margin-right: 0.4rem;
+}

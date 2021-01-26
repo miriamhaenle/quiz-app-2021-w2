@@ -1,11 +1,11 @@
 /* Resets and basic setup*/
 
 :root {
-  --primary: #e6beae;
-  --primary-light: #eee4e1;
-  --secondary: #b2967d;
-  --secondary-light: E7D8C9;
-  --white: #ecf8f8;
+  --primary: #78a1bb;
+  --primary-dark: #283044;
+  --secondary: #8b786d;
+  --secondary-light: #bfa89e;
+  --white: #ebf5ee;
   --black: #211103;
 
   --ff-sans: sans-serif;
@@ -40,12 +40,22 @@ p {
 }
 
 body {
-  line-height: 1.5;
+  background: var(--white);
+  color: var(--black);
   font-size: 1.25rem; /* var(--fs-400) */
+  line-height: 1.5;
+  width: 100vw;
 }
 
 ul[class],
 ol[class] {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul[class] li,
+ol[class] li {
   list-style: none;
   padding: 0;
 }
