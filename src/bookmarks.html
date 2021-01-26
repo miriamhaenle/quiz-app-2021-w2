@@ -7,16 +7,17 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header>
-      <h1>BOOKMARKS</h1>
+    <header class="header">
+      <h1 class="header__title">BOOKMARKS</h1>
     </header>
 
     <main>
-      <article>
-        <h2>QUESTION</h2>
-        <p>How many Hogwarts houses are there?</p>
-        <button>SHOW ANSWER</button>
-        <ul>
+      <article class="card">
+        <h2 class="card__title">QUESTION</h2>
+        <p class="card__question">How many Hogwarts houses are there?</p>
+        <button class="card__button">SHOW ANSWER</button>
+        <p class="card__answer">There are four houses.</p>
+        <ul class="card__tags">
           <li>3</li>
           <li>10</li>
           <li>4</li>
@@ -24,11 +25,12 @@
         </ul>
       </article>
 
-      <article>
-        <h2>QUESTION</h2>
-        <p>What is the name of Hagrid’s big dog?</p>
-        <button>SHOW ANSWER</button>
-        <ul>
+      <article class="card">
+        <h2 class="card__title">QUESTION</h2>
+        <p class="card__question">What is the name of Hagrid’s big dog?</p>
+        <button class="card__button">SHOW ANSWER</button>
+        <p class="card__answer">Hagrids dog is named Fang</p>
+        <ul class="card__tags">
           <li>Fin</li>
           <li>Fang</li>
           <li>Furry</li>
@@ -36,12 +38,14 @@
         </ul>
       </article>
 
-      <article>
-        <h2>QUESTION</h2>
-        <p>What did Dobby catch that set him free from Mr. Malfoy?</p>
-        <button>SHOW ANSWER</button>
-        <p>answer</p>
-        <ul>
+      <article class="card">
+        <h2 class="card__title">QUESTION</h2>
+        <p class="card__question">
+          What did Dobby catch that set him free from Mr. Malfoy?
+        </p>
+        <button class="card__button">SHOW ANSWER</button>
+        <p class="card__answer">A dirty sock</p>
+        <ul class="card__tags">
           <li>A dirty sock</li>
           <li>A hat</li>
           <li>A wand</li>
@@ -49,11 +53,14 @@
         </ul>
       </article>
 
-      <article>
-        <h2>QUESTION</h2>
-        <p>What flavour are Bertie Bott’s beans?</p>
-        <button>SHOW ANSWER</button>
-        <ul>
+      <article class="card">
+        <h2 class="card__title">QUESTION</h2>
+        <p class="card__question">What flavour are Bertie Bott’s beans?</p>
+        <button class="card__button">SHOW ANSWER</button>
+        <p class="card__answer">
+          Bertie Bott's beans are available in all flavors imaginable.
+        </p>
+        <ul class="card__tags">
           <li>Strawberry</li>
           <li>Vanilla</li>
           <li>Chocolate</li>
@@ -63,12 +70,14 @@
     </main>
 
     <footer>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="bookmarks.html">Bookmarks</a></li>
-          <li><a href="create.html">Create</a></li>
-          <li><a href="profile.html">Profile</a></li>
+      <nav class="navigation">
+        <ul class="navigation__container">
+          <li class="navigation__item"><a href="index.html">Home</a></li>
+          <li class="navigation__item">
+            <a href="bookmarks.html">Bookmarks</a>
+          </li>
+          <li class="navigation__item"><a href="create.html">Create</a></li>
+          <li class="navigation__item"><a href="profile.html">Profile</a></li>
         </ul>
       </nav>
     </footer>

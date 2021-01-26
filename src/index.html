@@ -7,16 +7,22 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header>
-      <h1>HP Quiz App</h1>
+    <header class="header">
+      <h1 class="title">HP Quiz App</h1>
     </header>
 
     <main>
-      <article>
-        <h2>QUESTION</h2>
-        <p>Which Hogwarts house did Harry Potter attend?</p>
-        <button>SHOW ANSWER</button>
-        <ul>
+      <article class="card">
+        <h2 class="card__title">QUESTION</h2>
+        <p class="card__question">
+          Which Hogwarts house did Harry Potter attend?
+        </p>
+        <button class="card__button">SHOW ANSWER</button>
+        <p class="card__answer">
+          Harry attended Gryffindore, however he was nearly chosen to be a
+          Slytherin.
+        </p>
+        <ul class="card__tags">
           <li>Hufflepuff</li>
           <li>Slytherin</li>
           <li>Ravenclaw</li>
@@ -24,11 +30,12 @@
         </ul>
       </article>
 
-      <article>
-        <h2>QUESTION</h2>
-        <p>In which street did the Dursley's live?</p>
-        <button>SHOW ANSWER</button>
-        <ul>
+      <article class="card">
+        <h2 class="card__title">QUESTION</h2>
+        <p class="card__question">In which street did the Dursley's live?</p>
+        <button class="card__button">SHOW ANSWER</button>
+        <p class="card__answer">They lived in Pivet Drive, Surrey.</p>
+        <ul class="card__tags">
           <li>Royal Mile</li>
           <li>Pivet Drive</li>
           <li>Wizzard Alley</li>
@@ -36,12 +43,14 @@
         </ul>
       </article>
 
-      <article>
-        <h2>QUESTION</h2>
-        <p>What position does Harry play on the Quidditch team?</p>
-        <button>SHOW ANSWER</button>
-        <p>answer</p>
-        <ul>
+      <article class="card">
+        <h2 class="card__title">QUESTION</h2>
+        <p class="card__question">
+          What position does Harry play on the Quidditch team?
+        </p>
+        <button class="card__button">SHOW ANSWER</button>
+        <p>Harry played the Seeker. Also the youngester Seeker ever.</p>
+        <ul class="card__tags">
           <li>Seeker</li>
           <li>Finder</li>
           <li>Keeper</li>
@@ -49,11 +58,14 @@
         </ul>
       </article>
 
-      <article>
-        <h2>QUESTION</h2>
-        <p>Which class has a different teacher every year?</p>
-        <button>SHOW ANSWER</button>
-        <ul>
+      <article class="card">
+        <h2 class="card__title">QUESTION</h2>
+        <p class="card__question">
+          Which class has a different teacher every year?
+        </p>
+        <button class="card__button">SHOW ANSWER</button>
+        <p class="card__answer">Defence Against the Dark Arts.</p>
+        <ul class="card__tags">
           <li>Astronomy</li>
           <li>Charms</li>
           <li>Defence Against the Dark Arts</li>
@@ -63,12 +75,14 @@
     </main>
 
     <footer>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="bookmarks.html">Bookmarks</a></li>
-          <li><a href="create.html">Create</a></li>
-          <li><a href="profile.html">Profile</a></li>
+      <nav class="navigation">
+        <ul class="navigation__container">
+          <li class="navigation__item"><a href="index.html">Home</a></li>
+          <li class="navigation__item">
+            <a href="bookmarks.html">Bookmarks</a>
+          </li>
+          <li class="navigation__item"><a href="create.html">Create</a></li>
+          <li class="navigation__item"><a href="profile.html">Profile</a></li>
         </ul>
       </nav>
     </footer>
