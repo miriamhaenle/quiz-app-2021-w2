@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "description": "Quiz app for web 2021-21, neuefische bootcamp",
   "scripts": {
-    "start": "parcel src/index.html",
-    "build": "parcel build src/index.html",
+    "start": "snowpack dev",
+    "build": "snowpack build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,7 +17,8 @@
     "url": "https://github.com/miriamhaenle/2021-w1-quiz-app/issues"
   },
   "homepage": "https://github.com/miriamhaenle/2021-w1-quiz-app#readme",
-  "dependencies": {
-    "parcel-bundler": "^1.12.4"
+  "dependencies": {},
+  "devDependencies": {
+    "snowpack": "^3.3.3"
   }
 }
