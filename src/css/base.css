@@ -1,9 +1,9 @@
 /* Resets and basic setup*/
 
 :root {
-  --primary: #78a1bb;
-  --primary-dark: #283044;
-  --secondary: #8b786d;
+  --primary: hsl(203, 33%, 60%);
+  --primary-dark: ##33ab4;
+  --secondary: hsl(22, 12%, 49%);
   --secondary-light: #bfa89e;
   --white: #ebf5ee;
   --black: #211103;
