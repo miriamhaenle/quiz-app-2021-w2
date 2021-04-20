@@ -1,0 +1,15 @@
+.navigation {
+  background: var(--primary-dark);
+}
+
+.navigation__container {
+  display: flex;
+}
+
+.navigation__item {
+  padding: 1rem 2rem;
+}
+.navigation__item a {
+  text-decoration: none;
+  color: var(--white);
+}

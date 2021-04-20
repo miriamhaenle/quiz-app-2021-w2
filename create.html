@@ -4,46 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <header>
-      <h1>CREATE</h1>
+    <header class="header">
+      <h1 class="header__title">CREATE</h1>
     </header>
 
     <main>
-      <form action="submit">
-        <label
+      <form action="submit" class="form">
+        <label class="form__label"
           >Question<textarea
             name=""
             cols="30"
             rows="10"
             placeholder="Add question"
+            class="form__textarea"
           ></textarea>
         </label>
-        <label
+        <label class="form__label"
           >Answer<textarea
             name=""
             cols="30"
             rows="10"
             placeholder="Add answer"
+            class="form__textarea"
           ></textarea>
         </label>
-        <label
+        <label class="form__label"
           >Tags
-          <input type="text" name="tags" />
+          <input type="text" name="tags" class="form__input" />
         </label>
-        <button>SUBMIT</button>
+        <button class="form__button">SUBMIT</button>
       </form>
     </main>
 
     <footer>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="bookmarks.html">Bookmarks</a></li>
-          <li><a href="create.html">Create</a></li>
-          <li><a href="profile.html">Profile</a></li>
+      <nav class="navigation">
+        <ul class="navigation__container">
+          <li class="navigation__item"><a href="index.html">Home</a></li>
+          <li class="navigation__item">
+            <a href="bookmarks.html">Bookmarks</a>
+          </li>
+          <li class="navigation__item"><a href="create.html">Create</a></li>
+          <li class="navigation__item"><a href="profile.html">Profile</a></li>
         </ul>
       </nav>
     </footer>

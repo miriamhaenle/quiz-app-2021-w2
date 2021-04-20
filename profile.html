@@ -4,30 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <header>
-      <h1>PROFILE</h1>
+    <header class="header">
+      <h1 class="header__title">PROFILE</h1>
     </header>
 
     <main>
-      <section>
-        <img src="https://picsum.photos/200" alt="" />
-        <p>Harry Potter</p>
+      <section class="profile">
+        <img src="https://picsum.photos/200" alt="" class="profile__image" />
+        <p class="profile__name">Harry Potter</p>
       </section>
 
-      <section>
-        <h3>About myself</h3>
-        <p>
+      <section class="about">
+        <h3 class="about__title">About myself</h3>
+        <p class="about__text">
           The boy who lived. Born in West Country, grew up in Surry. Went to
           Hogwarts. Defeated You-Know-Who.
         </p>
       </section>
-      <section>
-        <h3>
+
+      <section class="skills">
+        <h3 class="skills__title">
           My skills
-          <ul>
+          <ul class="skills__list">
             <li>Quidditch</li>
             <li>Flying</li>
             <li>Patronus</li>
@@ -36,15 +37,19 @@
           </ul>
         </h3>
       </section>
-      <button>Logout</button>
+
+      <button class="button">Logout</button>
     </main>
+
     <footer>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="bookmarks.html">Bookmarks</a></li>
-          <li><a href="create.html">Create</a></li>
-          <li><a href="profile.html">Profile</a></li>
+      <nav class="navigation">
+        <ul class="navigation__container">
+          <li class="navigation__item"><a href="index.html">Home</a></li>
+          <li class="navigation__item">
+            <a href="bookmarks.html">Bookmarks</a>
+          </li>
+          <li class="navigation__item"><a href="create.html">Create</a></li>
+          <li class="navigation__item"><a href="profile.html">Profile</a></li>
         </ul>
       </nav>
     </footer>

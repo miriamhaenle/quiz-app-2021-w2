@@ -1,0 +1,54 @@
+.card {
+  align-items: center;
+  background: var(--clr-base-100);
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px hsl(0, 18%, 91%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+}
+
+.card__title {
+  font-family: var(--ff-sans);
+  font-size: 1rem;
+  color: var(--grey);
+}
+
+.card__question {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.card__answer {
+  display: none;
+}
+
+.card__button {
+  padding: 0.3rem 0.8rem;
+  border: 2px solid var(--black);
+  border-radius: 100vw;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 1rem;
+}
+
+.card__button:focus {
+  border: 2px solid var(--black);
+}
+
+.card__tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card__tags li {
+  background: var(--secondary);
+  color: var(--clr-base-100);
+  padding: 0.2rem 0.5rem;
+  border-radius: 100vw;
+}
+
+.card__tags li:not(:last-child) {
+  margin-right: 0.4rem;
+}

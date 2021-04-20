@@ -1,0 +1,80 @@
+/* Resets and basic setup*/
+
+:root {
+  --primary: hsl(203, 33%, 60%);
+  --primary-dark: hsl(16, 83%, 59%);
+  --secondary: hsl(352, 96%, 68%);
+  --secondary-light: hsl(352, 96%, 96%);
+  --clr-base-100: hsl(202, 34%, 96%);
+  --clr-base-200: hsl(202, 34%, 85%);
+  --black: #211103;
+  --grey: hsl(201, 7%, 62%);
+
+  --ff-sans: sans-serif;
+  --ff-serif: serif;
+
+  --fs-200: 0.75rem;
+  --fs-300: 1rem;
+  --fs-400: 1.25rem;
+  --fs-500: 1.375;
+  --fs-600: 1.75rem;
+  --fs-900: 2.125rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+body {
+  background: var(--clr-base-100);
+  color: var(--black);
+  font-size: 1.25rem; /* var(--fs-400) */
+  line-height: 1.5;
+  width: 100vw;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul[class] li,
+ol[class] li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.title {
+  padding: 3rem;
+  color: var(--white);
+  background-image: linear-gradient(
+    290deg,
+    var(--primary-dark),
+    var(--secondary),
+    var(--secondary),
+    var(--secondary-light)
+  );
+}
