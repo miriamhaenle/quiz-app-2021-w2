@@ -1,6 +1,7 @@
 /* Resets and basic setup*/
 
 :root {
+  /* colors as variables */
   --primary: hsl(203, 33%, 60%);
   --primary-dark: hsl(16, 83%, 59%);
   --secondary: hsl(352, 96%, 68%);
@@ -9,14 +10,17 @@
   --clr-base-200: hsl(202, 34%, 85%);
   --black: #211103;
   --grey: hsl(201, 7%, 62%);
+  --white: #ffffff;
 
+  /* font-family */
   --ff-sans: sans-serif;
   --ff-serif: serif;
 
+  /* font-size */
   --fs-200: 0.75rem;
   --fs-300: 1rem;
   --fs-400: 1.25rem;
-  --fs-500: 1.375;
+  --fs-500: 1.375rem;
   --fs-600: 1.75rem;
   --fs-900: 2.125rem;
 }
@@ -47,6 +51,10 @@ body {
   font-size: 1.25rem; /* var(--fs-400) */
   line-height: 1.5;
   width: 100vw;
+}
+
+main {
+  padding-bottom: 3rem;
 }
 
 ul[class],
