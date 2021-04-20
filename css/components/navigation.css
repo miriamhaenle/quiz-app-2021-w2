@@ -1,15 +1,24 @@
 .navigation {
   background: var(--primary-dark);
+  padding: 1rem 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .navigation__container {
   display: flex;
+  justify-content: space-around;
 }
 
-.navigation__item {
-  padding: 1rem 2rem;
-}
 .navigation__item a {
   text-decoration: none;
   color: var(--white);
+}
+
+.navigation__item--active a {
+  border: 2px solid var(--white);
+  border-radius: 100vw;
+  padding: 0.2rem 0.5rem 0.3rem;
 }
