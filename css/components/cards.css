@@ -27,7 +27,7 @@
 .card__button {
   padding: 0.5rem 0.8rem;
   border: 2px solid var(--black);
-  background: hotpink;
+  background: var(--white);
   border-radius: 100vw;
   font-weight: bold;
   font-size: 1.2rem;
