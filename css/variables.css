@@ -1,0 +1,30 @@
+:root {
+  /* colors as variables */
+  --clr-primary: hsl(202, 33%, 60%);
+  --clr-primary-700: hsl(202, 83%, 59%);
+  --clr-secondary: hsl(352, 96%, 68%);
+  --clr-secondary-light: hsl(352, 96%, 96%);
+
+  --clr-base-100: hsl(202, 34%, 96%);
+  --clr-base-200: hsl(202, 34%, 85%);
+
+  --clr-primary-100: ;
+
+  --black: #211103;
+  --grey: hsl(201, 7%, 62%);
+  --white: #ffffff;
+
+  --magenta: green;
+
+  /* font-family */
+  --ff-sans: sans-serif;
+  --ff-serif: serif;
+
+  /* font-size */
+  --fs-200: 0.75rem;
+  --fs-300: 1rem;
+  --fs-400: 1.25rem;
+  --fs-500: 1.375rem;
+  --fs-600: 1.75rem;
+  --fs-900: 2.125rem;
+}
